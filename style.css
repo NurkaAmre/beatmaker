@@ -5,6 +5,10 @@
 }
 body {
     font-family: serif;
+    background: url(./assets/pexels-moose-photos-1037992.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 i, svg {
@@ -29,11 +33,11 @@ i, svg {
  }
 
 .snare-pad {
-    background: lightpink;
+    background: rgb(215, 159, 213);
 }
 
 .snare-pad.active {
-    background: rgb(192, 54, 185);
+    background: rgb(202, 23, 205);
 }
 .hihat-pad {
     background: rgb(141, 208, 132);
