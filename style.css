@@ -29,22 +29,23 @@ i, svg {
 }
 
 .kick-pad.active {
-    background:  rgb(25, 169, 226);
+    background:  rgb(91, 206, 251);
  }
 
 .snare-pad {
-    background: rgb(215, 159, 213);
+    background: rgb(231, 175, 229);
 }
 
 .snare-pad.active {
-    background: rgb(202, 23, 205);
+    background: rgb(250, 128, 235);
+    border: 2px solid rgb(226, 117, 215);
 }
 .hihat-pad {
-    background: rgb(141, 208, 132);
+    background: rgb(150, 213, 142);
  }
 
 .hihat-pad.active {
-    background: rgb(51, 213, 30);
+    background: rgb(135, 243, 121);
 }
 
  .sequencer {
@@ -113,6 +114,10 @@ i, svg {
 
 h1 {
     color: rgb(87, 77, 77);
+}
+
+.mute.active {
+    background: rgb(164, 112, 112);
 }
 
 @keyframes playTrack {
