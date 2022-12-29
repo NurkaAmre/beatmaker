@@ -22,6 +22,7 @@ i, svg {
     height: 5rem;
     margin: 1rem 0.5rem;
     cursor: pointer;
+    border-radius: 3rem;
 }
 
 .kick-pad {
@@ -82,11 +83,12 @@ i, svg {
  .controls button {
     padding: 1rem;
     border: none;
-    background: rgb(88, 80, 80);
+    background:lightslategray;;
     color: #fff;
     font-size: 1rem;
     cursor: pointer;
     transition: all 0.5s ease;
+    border-radius: 3rem;
  }
 
  .pad {
@@ -96,11 +98,12 @@ i, svg {
  .play {
     padding: 1rem 2rem;
     font-size: 1.5rem;
-    background: rgb(88, 80, 80);
+    background: lightslategray;;
     color: #fff;
     border: none;
     cursor: pointer;
     margin-top: 3rem;
+    border-radius: 3rem;
  }
 
  select {
@@ -113,11 +116,34 @@ i, svg {
  }
 
 h1 {
-    color: rgb(87, 77, 77);
+    color:rgb(103, 114, 125);
 }
 
 .mute.active {
     background: rgb(164, 112, 112);
+}
+
+.tempo {
+    margin: 3rem;
+    width: 30%;
+}
+
+.tempo-slider {
+    padding: 0.2rem;
+    -webkit-appearance: none;
+    margin: 1rem 0rem;
+    width: 100%;
+    position: relative;
+    background-color: lightslategray;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+.tempo p {
+    font-size: 1.5rem;
+    margin: 2rem;
+    text-align: center;
+    color: rgb(103, 114, 125);
 }
 
 @keyframes playTrack {
@@ -125,6 +151,6 @@ h1 {
         transform: scale(1);
     }
     to {
-        transform: scale(1.2);
+        transform: scale(1.3);
     }
 }
